@@ -127,4 +127,25 @@ Changes to be committed:
         new file:   New Text Document.txt
         new file:   NewFile.txt
 -----------------------------------------------------------
-
+******************************************************************************
+29DEC 2020
+************************************
+Download-Pull Upload-Push
+$ git init
+Initialized empty Git repository in C:/work/my-data/git/dec29/.git/
+2) Create some files on local directory
+3) check the status
+$ git status
+4) We moved the files to staging area 
+$ git add -A
+-A is for all the files in current directory
+5) commit into staging 
+$ git commit -m "first commit"
+-m is for comments/messages 
+6) check the logs
+$ git log
+7) Set the remote repo URL 
+$ git remote add origin https://github.com/kpagariya/Dec29.git
+8) Push the changes from staging to remote
+$ git push -u origin master
+All the steps were done on master branch
